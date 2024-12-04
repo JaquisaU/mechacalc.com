@@ -1,0 +1,40 @@
+/* Analysis.css */
+
+.analysis {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .analysis h2 {
+    color: #34495e;
+    margin-bottom: 20px;
+  }
+  
+  .analysis p {
+    font-size: 18px;
+    color: #7f8c8d;
+  }
+  
+  .chart-container {
+    margin-top: 30px;
+    position: relative;
+    height: 400px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .analysis {
+      padding: 15px;
+      width: 90%;
+    }
+  
+    .chart-container {
+      height: 300px;
+    }
+  }
+  

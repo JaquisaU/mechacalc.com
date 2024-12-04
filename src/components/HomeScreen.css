@@ -1,0 +1,37 @@
+/* HomeScreen.css */
+
+.home-screen {
+    text-align: center;
+    padding: 40px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .home-screen h1 {
+    color: #34495e;
+    margin-bottom: 20px;
+  }
+  
+  .home-screen p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .options button {
+    padding: 12px 24px;
+    font-size: 18px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .options button:hover {
+    background-color: #2980b9;
+  }
+  
